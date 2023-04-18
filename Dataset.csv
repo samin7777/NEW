@@ -1,0 +1,92 @@
+timestamp,ip_address,command,not_local,offtime,has_malicious_command,is_malicious
+2023-03-25 16:31:35,127.0.0.1,ls,False,False,False,False
+2023-03-25 16:31:35,127.0.0.1,ls,False,False,False,False
+2023-03-25 16:31:35,127.0.0.1,cd usr,False,False,False,False
+2023-03-25 16:31:35,127.0.0.1,sudo ls,False,False,True,True
+2023-03-25 16:31:35,127.0.0.1,sudo nmap,False,False,True,True
+2023-03-25 16:31:35,127.0.0.1,nmap,False,False,False,False
+2023-03-25 16:31:35,127.0.0.1,tcpdump,False,False,False,False
+2023-03-25 16:31:35,127.0.0.1,cd tmp,False,False,False,False
+2023-03-25 16:31:35,127.0.0.1,cd ascii,False,False,False,False
+2023-03-25 16:31:35,127.0.0.1,cd ..,False,False,False,False
+2023-03-25 16:36:13,127.0.0.1,tcpdump,False,False,False,False
+2023-03-25 16:36:13,127.0.0.1,ls,False,False,False,False
+2023-03-25 16:38:33,127.0.0.1,tcpdump,False,False,False,False
+2023-03-25 16:38:33,127.0.0.1,ls,False,False,False,False
+2023-03-25 16:41:29,127.0.0.1,tcpdump,False,False,False,False
+2023-03-25 16:41:29,127.0.0.1,ls,False,False,False,False
+2023-03-25 23:12:41,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:12:41,127.0.0.1,a,False,True,False,False
+2023-03-25 23:15:10,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:15:10,127.0.0.1,a,False,True,False,False
+2023-03-25 23:15:10,127.0.0.1,nmap,False,True,False,False
+2023-03-25 23:15:10,127.0.0.1,nmap,False,True,False,False
+2023-03-25 23:15:10,127.0.0.1,sudo nmap,False,True,True,True
+2023-03-25 23:15:10,127.0.0.1,sudo,False,True,True,True
+2023-03-25 23:17:10,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:17:10,127.0.0.1,l,False,True,False,False
+2023-03-25 23:17:10,127.0.0.1,a,False,True,False,False
+2023-03-25 23:17:41,127.0.0.1,l,False,True,False,False
+2023-03-25 23:17:41,127.0.0.1,a,False,True,False,False
+2023-03-25 23:18:58,127.0.0.1,l,False,True,False,False
+2023-03-25 23:18:58,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:18:58,127.0.0.1,a,False,True,False,False
+2023-03-25 23:19:33,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:20:28,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:20:28,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:20:28,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:20:28,127.0.0.1,ll,False,True,False,False
+2023-03-25 23:20:28,127.0.0.1,l,False,True,False,False
+2023-03-25 23:20:28,127.0.0.1,l,False,True,False,False
+2023-03-25 23:21:30,127.0.0.1,s,False,True,False,False
+2023-03-25 23:21:30,127.0.0.1,ks,False,True,False,False
+2023-03-25 23:21:30,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:22:36,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:23:29,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:23:29,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:23:29,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:23:29,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:23:29,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:23:29,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:23:29,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:23:29,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:23:29,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:23:29,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:23:29,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:23:29,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:23:29,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:23:29,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:25:20,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:25:20,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:25:20,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:25:20,127.0.0.1,l,False,True,False,False
+2023-03-25 23:25:20,127.0.0.1,l,False,True,False,False
+2023-03-25 23:25:20,127.0.0.1,l,False,True,False,False
+2023-03-25 23:25:20,127.0.0.1,l,False,True,False,False
+2023-03-25 23:25:20,127.0.0.1,ll,False,True,False,False
+2023-03-25 23:25:20,127.0.0.1,l,False,True,False,False
+2023-03-25 23:25:20,127.0.0.1,l,False,True,False,False
+2023-03-25 23:25:20,127.0.0.1,l,False,True,False,False
+2023-03-25 23:26:57,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:26:57,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:26:57,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:26:57,127.0.0.1,ls,False,True,False,False
+2023-03-25 23:26:57,127.0.0.1,l,False,True,False,False
+2023-03-25 23:26:57,127.0.0.1,sl,False,True,False,False
+2023-03-25 23:26:57,127.0.0.1,w,False,True,False,False
+2023-03-25 23:26:57,127.0.0.1,exit,False,True,False,False
+2023-03-25 23:29:22,127.0.0.1,exit,False,True,False,False
+2023-03-25 23:47:58,127.0.0.1,ls,False,True,False,False
+2023-03-26 00:03:44,127.0.0.1,ls,False,True,False,False
+2023-03-26 00:14:56,127.0.0.1,ls,False,True,False,False
+2023-03-26 00:18:23,127.0.0.1,ls,False,True,False,False
+2023-03-26 00:18:23,127.0.0.1,ls,False,True,False,False
+2023-03-26 00:19:12,127.0.0.1,aaaavvvv,False,True,False,False
+2023-03-26 00:19:12,127.0.0.1,gggg,False,True,False,False
+2023-03-26 00:19:12,127.0.0.1,ls,False,True,False,False
+2023-03-26 00:31:37,127.0.0.1,ls,False,True,False,False
+2023-03-26 00:31:37,127.0.0.1,exit,False,True,False,False
+2023-03-26 00:33:46,127.0.0.1,ls,False,True,False,False
+2023-03-26 00:33:46,127.0.0.1,ls,False,True,False,False
+2023-03-26 00:33:46,127.0.0.1,quit,False,True,False,False
+2023-03-26 00:33:46,127.0.0.1,exit,False,True,False,False
